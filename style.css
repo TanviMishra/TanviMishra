@@ -14,13 +14,16 @@ body {
 }
 .imagesize{
     background: rgba(0,255,0);
-    max-height: 300px;
+    margin: auto;
+    width: 600px;
+    height: 600px;
 }
 h1{
     text-align: center;
 }
 img {
-    width: 200px;
-    height: 300px;
     object-fit: cover;
   }
+p{
+    text-align: center;
+}
