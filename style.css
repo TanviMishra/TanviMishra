@@ -13,13 +13,14 @@ body {
     background: rgba(0,0,0);
 }
 .imagesize{
-    background: rgba(0,255,0);
+    background: rgba(0,0,255);
     margin: auto;
     width: 600px;
     height: 600px;
 }
 h1{
     text-align: center;
+    color: rgba(0,0,255);
 }
 img {
     height: 600px;
