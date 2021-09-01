@@ -5,6 +5,7 @@
     <!--link style.css-->
     <link rel="stylesheet" href="style.css" /> 
 </head>
+
 <body>
     <div class = "background">
         <h1>Welcome</h1>
@@ -12,8 +13,23 @@
         <p>Checking style</p>
         
     </div>
+    <audio id="myAudio">
+        <source src="nightowl.mp3" type="audio/mpeg">
+    </audio>
     <div class="imageclass">
         <img src="bopic.png" onclick="playAudio('nightowl.mp3')">
+        <button onclick="playAudio()" type="button">Play Audio</button>
     </div>
 </body>
-</html>
+<script>
+    var x = document.getElementById("myAudio"); 
+    
+    function playAudio() { 
+      x.play(); 
+    } 
+    
+    function pauseAudio() { 
+      x.pause(); 
+    } 
+</script>
+</html>p
