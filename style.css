@@ -9,5 +9,9 @@ body {
 }
 
 .imageclass{
+    margin: 60px;
     background: rgba(0,0,0);
+}
+h1{
+    padding: auto;
 }
